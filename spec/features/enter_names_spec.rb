@@ -8,6 +8,6 @@ feature 'Enter names and being able to see them' do
     fill_in :player_1_name, with: 'Sayem'
     fill_in :player_2_name, with: 'Hisham'
     click_button 'Submit'
-    expect(page).to have_content 'Sayem Vs Hisham'
+    expect(page).to have_content 'Sayem vs. Hisham'
   end
 end
