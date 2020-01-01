@@ -5,7 +5,7 @@ describe Player do
 
   describe '#name' do
     it 'returns the name' do
-      expect(Sayem.name).to eq 'Sayem'
-    end 
+      expect(subject.name).to eq 'Sayem'
+    end
   end
 end
